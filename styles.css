@@ -1,0 +1,146 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4446c5;
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.about, .projects, .contact {
+    background-color: #fff;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image {
+    margin-left: 50px;
+}
+
+.projects .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.projects .project-item {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-item {
+    text-align: left;
+}
+
+.project-item > img {
+    margin-top: 20px;
+}
+
+.projects .project-item img {
+    max-width: 60%;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #4446c5;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input,
+.contact form textarea,
+.contact form button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.contact form input,
+.contact form textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+
+ul, li {
+    text-align: left;
+}
